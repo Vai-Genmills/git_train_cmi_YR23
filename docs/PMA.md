@@ -99,5 +99,5 @@ We benefit from this representational form in a number of use scenarios.
 
 ## License
 
-
+<video src="/images/Fetch-ScreenCapture.mp4" width="320" height="200" controls preload></video>
 ## References
