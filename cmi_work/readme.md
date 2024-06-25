@@ -110,3 +110,51 @@ We also leverage the Opportunity Cluster data, which lists the claims associated
     <td>Leveraging the total store report on Food and Beverage product taxonomy from a nationwide retail grocery industry perspective</td>
   </tr>
 </table>
+
+
+
+
+
+End-to-End Steps:
+## Table of Contents
+1. [Section 1: Introduction](#section-1-introduction)
+2. [Section 2: Installation](#section-2-installation)
+3. [Section 3: Usage](#section-3-usage)
+
+## Section 1: Introduction
+[Link to Introduction file](https://github.com/your-repo/your-project/blob/main/docs/introduction.md)
+
+<details>
+  <summary>Details about Introduction</summary>
+  This section provides an overview of the project, its purpose, and its main features.
+</details>
+
+## Section 2: Installation
+[Link to Installation file](https://github.com/your-repo/your-project/blob/main/docs/installation.md)
+
+<details>
+  <summary>Details about Installation</summary>
+  This section describes the steps needed to install the project, including system requirements and dependencies.
+</details>
+
+## Section 3: Usage
+[Link to Usage file](https://github.com/your-repo/your-project/blob/main/docs/usage.md)
+
+<details>
+  <summary>Details about Usage</summary>
+  This section explains how to use the project, with examples and command descriptions.
+</details>
+
+
+
+[Audience generation File] (https://github.com/gmi-common/marketing-pma-dna-gcp/blob/main/dbt/models/output/audience/audience_seed.sql)
+ 
+<details><summary><b> 1. Audience generation </b></summary>
+
+</details>
+  1. 
+2. ML data preparation - [02.ml_data_preparation.ipynb](02.ml_data_preparation.ipynb).
+3. ML data preprocessing - [03.ml_data_preprocessing.ipynb](03.ml_data_preprocessing.ipynb).
+4. ML model training - [04.model_training.ipynb](04.model_training.ipynb).
+5. ML model evaluation and diagnostics - [05.model_evaluation_and_diagnostics.ipynb](05.model_evaluation_and_diagnostics.ipynb).
+6. Media experiment design - [06.media_experiment_design.ipynb](06.media_experiment_design.ipynb).
