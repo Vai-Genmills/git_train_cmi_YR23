@@ -33,17 +33,43 @@ We also leverage the Opportunity Cluster data, which lists the claims associated
   <td>Leveraging the GMI product taxonomy </td>
   </tr>
   <tr>
+    <td rowspan="3"><strong>Nielsen</strong></td>
+    <td rowspan="3">edw-prd-e567f9</td>
+    <td rowspan="3">syndicated_data</td>
+    <td>dim_nielsen_precision_area_us_purchase_power</td>
+    <td>precision area data</td>
+  </tr>
+  <tr>
+    <td>nielsen_precision_area_us_demographics_fact</td>
+    <td>precision area data Demographics</td>
+  </tr>
+  <tr>
+    <td>dim_nielsen_precision_area_us_life_stages</td>
+    <td>precision area data life stage</td>
+  </tr>
+
+  
+
+  
+  <tr>
     <td rowspan="3"><strong>Fetch</strong></td>
     <td rowspan="3">edw-prd-e567f9</td>
     <td rowspan="3">cdf</td>
     <td>dim_fetch_user</td>
-    <td>Leveraging the total store report on Food and Beverage product taxonomy from a nationwide retail grocery industry perspective</td>
+    <td>User Level Fetch Data</td>
   </tr>
   <tr>
     <td>fetch_rewards_receipt_fact</td>
-    <td>Leveraging the total store report on Food and Beverage product taxonomy from a nationwide retail grocery industry perspective</td>
+    <td>Receipt Level Data bought by users - Store, Store Address, Receipt Total $ and item count</td>
+  </tr>
+  <tr>
+    <td>fetch_rewards_receipt_item_fact</td>
+    <td>Item level Data listed on Receipts - Product description, Item cost and Quantity, Points associated</td>
   </tr>
 
+
+  
+</table>
 
 
 ## Derived Sets
