@@ -37,10 +37,23 @@ Git thinks of its data more like a series of snapshots of a miniature filesystem
 * Create an SSH key and Publish on GitHub account
 * Guidelines for **creating GMI GitHub Repository**: https://gmi-pe.atlassian.net/wiki/spaces/CE/pages/279874204/Creating+a+GitHub+Repository
 * Vertex AI Notebook Git Clone:
-    - 
+    - script
+      ``` ssh-keygen -t ed25519 -C "mailid@genmills.com"
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_ed25519
+          cat ~/.ssh/id_ed25519.pub
+
+          "add ssh key to account"
+
+          git config --global user.name "github username "
+          git config --global user.email "mailid@genmills.com"
+
+          ssh -T git@github.com
+      
+      ```
     
     - references: via https one time code authentication: https://gmi-pe.atlassian.net/wiki/spaces/CE/pages/817824054/...+Spin-up+GCP+Vertex+AI+Workbench+Notebook
-                    
+                  CH Mod tasks : https://the-examples-book.com/crp/students/github_set_up  
     
 
 
