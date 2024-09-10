@@ -60,9 +60,12 @@ Git thinks of its data more like a series of snapshots of a miniature filesystem
 | **Adds files to staging**     |``` $ git add <file_path> ```|
 | **add all files**  | ``` $ git add . ```  |
 | **Record the changes to local repository**  | ``` $ git commit -m "messahe here" ```  |
-| **Automatically stage all tracked, modified files before the commit to local repository**  | ``` $ git commit -am "messahe here" ```  |
+| **Automatically stage all tracked, modified files before the commit to local repository**  | ``` $ git commit -am "message here" ```  |
 | **Push local commits to the remote repository**  | ``` $ git push origin <branchname> ```  |
 | **chronological commit history for a repository**     |``` $ git log ```|
+| **List local branch**     |``` $ git branch  ```|
+| **List local branch**     |``` $ git branch -a ```|
+| **list local branch**     |``` $ git branch  -r```|
 | **Create a new branch**     |``` $ git branch <branchname> ```|
 | **Checkout an existing branch**  | ``` $ git checkout <branch_name> ```  |
 | :angel: **HELP**  |  ``` $ git --help ```   |
